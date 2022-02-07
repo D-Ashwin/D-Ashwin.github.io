@@ -543,6 +543,28 @@ section#home .active::after {
     width: 450px;
   }
 }
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+.home{
+    row-gap: 5rem;
+    padding: 4rem 0 5rem;
+    top: 24%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.home__blob {
+    height: 124px;
+    fill: var(--first-color);
+    position: absolute;
+    transform: translate(229%, -200%) !important;
+}
+.particle-home {
+    position: absolute;
+}
+.animation-fixed{
+    position: absolute;
+}
+}
 .animated-text span {
   display: none;
   line-height: 1;
